@@ -1,0 +1,35 @@
+.container{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 50px;
+    border: 8px solid rgb(141, 136, 136);
+    border-radius: 20px;
+    width:50vh;
+    background-image: linear-gradient(to right ,rgb(155 178 178),rgb(114 144 153))
+
+}
+.main_Container{
+    margin: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-image: linear-gradient(to right ,rgb(196 220 202),rgb(176 193 198));
+}
+.temp{
+    font-size: 30px;
+}
+button{
+
+    background-color: rgb(27, 23, 236);
+}
+button:hover{
+    /* background-image: linear-gradient(to right ,rgb(22, 33, 154),rgb(39, 172, 216)); */
+    cursor: pointer;
+    opacity: 0.5;
+
+}
